@@ -7,7 +7,7 @@
     "example": "example"
   },
   "scripts": {
-    "commitmsg": "commitlint -E GIT_PARAMS"
+    "commitmsg": "commitlint -x @commitlint/config-conventional -E GIT_PARAMS"
   },
   "repository": {
     "type": "git",
